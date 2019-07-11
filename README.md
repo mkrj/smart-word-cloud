@@ -24,10 +24,12 @@ pipenv install --dev
 cp .env.example .env 创建自定义环境文件
 pipenv shell # 进入虚拟环境
 ```
-如果虚拟环境已经激活，再次运行只需要命令`flask run`
+若虚拟环境已经被激活，再次运行只需要命令
+`flask run`
 
-**API**
+## API
 `POST /api/clouds`
+
 POST 发送待分析的文本文件(txt)，将返回一个包含词频统计和图云图片的压缩包
 
 ## 使用示例
