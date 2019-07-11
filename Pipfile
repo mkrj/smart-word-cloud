@@ -1,0 +1,22 @@
+[[source]]
+url = 'https://pypi.tuna.tsinghua.edu.cn/simple/'
+verify_ssl = true
+name = 'pypi'
+
+[dev-packages]
+flake8 = "*"
+
+[packages]
+python-dotenv = "*"
+wordcloud = "*"
+matplotlib = "*"
+jieba = "*"
+imageio = "*"
+xlsxwriter = "*"
+flask = "*"
+requests = "*"
+flask-cors = "*"
+rfc6266 = "*"
+
+[requires]
+python_version = "3.7"
